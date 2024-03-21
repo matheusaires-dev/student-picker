@@ -1,12 +1,16 @@
 
 import './App.css'
-import AppProvider from './context/AppContext'
+import AttendanceList from './components/AttendanceList/AttendanceList'
+// import AppProvider from './context/AppContext'
+// import AttendanceListProvider from './context/AttendanceList'
 
 function App() {
     return (
-        <AppProvider>
-            
-        </AppProvider>
+        // <AppProvider>
+        // </AppProvider>
+        <AttendanceList />
+        // <AttendanceListProvider>
+        // </AttendanceListProvider>
     )
 }
 

@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { Container, Box, Stack, TextField, Button, Typography } from "@mui/material";
+import { Container, Box, Stack, TextField, Button, Typography, CircularProgress, LinearProgress } from "@mui/material";
 import { ChangeEvent, ReactNode, SetStateAction, createContext, useEffect, useState } from "react";
 import StudentList from "../components/List/StudentList";
 
@@ -18,6 +18,8 @@ const AppProvider = ({ children }: { children?: ReactNode }) => {
     const [name, setName] = useState("");
     const [students, setStudents] = useState<string[]>([]);
     const [index, setIndex] = useState<number | null>(null);
+    const [loading, setLoading] = useState(false);
+    const [cont, setCont] = useState(0);
 
     const handleName = (event: ChangeEvent<HTMLInputElement>) => {
         setName(event.target.value);
@@ -34,8 +36,35 @@ const AppProvider = ({ children }: { children?: ReactNode }) => {
     }
 
     const handlePicker = () => {
-        setIndex(Math.floor(Math.random() * students.length))
+        setLoading(true);
+
+        setTimeout(() => {
+            setIndex(Math.floor(Math.random() * students.length))
+            setLoading(false);
+        }, 4000)
     }
+
+    useEffect(() => {
+        if (loading) {
+            const id = setInterval(() => {
+                setCont(cont => cont + 1)
+                if (cont > 3) {
+                    clearInterval(id);
+                }
+            }, 1000)
+
+            return () => {
+                clearInterval(id);
+            };
+        }else{
+            setCont(0);
+        }
+
+    }, [loading])
+
+    useEffect(() => {
+        console.log(cont)
+    }, [cont])
 
     return (
         <AppContext.Provider value={{ students, setStudents }}>
@@ -57,9 +86,10 @@ const AppProvider = ({ children }: { children?: ReactNode }) => {
                         </Stack>
                         <Box paddingY={4}>
                             <Stack spacing={2}>
-                                {index === null ? <StudentList /> : <Box padding={4}><Typography variant="h2" color="primary">{students[index]}</Typography></Box>}
-                                <Button variant="contained" color="primary" fullWidth disabled={students.length < 2} onClick={index === null ? handlePicker : () => { setIndex(null) }}>
-                                    {index === null? "Sortear": "Voltar"}
+                                {!!cont && <Typography variant="h2" color="primary">{cont}</Typography>}
+                                {index === null ? loading ? <LinearProgress /> : <StudentList /> : <Box padding={4}><Typography variant="h2" color="primary">{students[index]}</Typography></Box>}
+                                <Button sx={{ alignSelf: "center" }} variant="contained" color="primary" disabled={students.length < 2} onClick={index === null ? handlePicker : () => { setIndex(null) }}>
+                                    {index === null ? "Sortear" : "Voltar"}
                                 </Button>
                             </Stack>
                         </Box>
