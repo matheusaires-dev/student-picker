@@ -175,9 +175,7 @@ const AttendanceList = () => {
     return "primary";
   };
 
-  // Cor para nomes e botões de eliminados
   const eliminatedColor = 'text.disabled';
-  const activeColor = 'success.main';
 
   return (
     <Container sx={{ height: "100vh" }}>
