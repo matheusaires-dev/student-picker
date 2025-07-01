@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import {
   KeyboardDoubleArrowLeft,
   KeyboardDoubleArrowRight,
@@ -215,7 +216,7 @@ const AttendanceList = () => {
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [current, currentIndex, attendanceList, handleAttendance, handleDelete, handleBack, handleNext]);
+  }, [current, currentIndex, attendanceList]);
 
   return (
     <Container sx={{ height: "100vh" }}>
