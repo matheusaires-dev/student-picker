@@ -14,6 +14,11 @@ import {
 } from "@mui/material";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle';
 
 type Status = "presente" | "ausente" | "justificado";
 
@@ -37,6 +42,7 @@ interface IAttendance {
 const AttendanceList = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [attendanceList, setAttendanceList] = useState<IAttendance[]>([]);
+  const [resetOpen, setResetOpen] = useState(false);
 
   const todayId = new Date()
     .toLocaleDateString("pt-BR")
@@ -50,7 +56,7 @@ const AttendanceList = () => {
 
   const getAttendances = async () => {
     try {
-      const response = await axios.get(`http://localhost:3000/attendanceList?status=${StudentStatus.ATIVO}`);
+      const response = await axios.get(`http://localhost:3000/attendanceList`);
       setAttendanceList(response.data);
     } catch (error) {
       console.error("Erro ao buscar lista de presença:", error);
@@ -80,6 +86,18 @@ const AttendanceList = () => {
     if (currentIndex < attendanceList.length - 1) setCurrentIndex((n) => n + 1);
   };
 
+  // Função para avançar para o próximo aluno ativo
+  const goToNextActive = () => {
+    let nextIdx = currentIndex + 1;
+    while (
+      nextIdx < attendanceList.length &&
+      attendanceList[nextIdx].status === StudentStatus.ELIMINADO
+    ) {
+      nextIdx++;
+    }
+    setCurrentIndex(Math.min(nextIdx, attendanceList.length - 1));
+  };
+
   const handleAttendance = async (status: Status) => {
     if (!current) return;
 
@@ -97,7 +115,7 @@ const AttendanceList = () => {
         attendances: updatedAttendances,
       });
       await getAttendances();
-      setCurrentIndex((n) => Math.min(n + 1, attendanceList.length - 1));
+      goToNextActive();
     } catch (error) {
       console.error("Erro ao atualizar presença:", error);
     }
@@ -117,6 +135,38 @@ const AttendanceList = () => {
     }
   };
 
+  // Função para reativar aluno (mudar status para ATIVO)
+  const handleReactivate = async () => {
+    if (!current) return;
+    try {
+      await axios.patch(`http://localhost:3000/attendanceList/${current.id}`, {
+        status: StudentStatus.ATIVO,
+      });
+      await getAttendances();
+    } catch (error) {
+      console.error("Erro ao reativar aluno:", error);
+    }
+  };
+
+  // Função para resetar a presença de hoje
+  const handleResetList = async () => {
+    try {
+      await Promise.all(
+        attendanceList.map((aluno) => {
+          const filteredAttendances = (aluno.attendances || []).filter(a => a.id !== todayId);
+          return axios.patch(`http://localhost:3000/attendanceList/${aluno.id}`, {
+            attendances: filteredAttendances,
+          });
+        })
+      );
+      await getAttendances();
+      setCurrentIndex(0);
+      setResetOpen(false);
+    } catch (error) {
+      console.error("Erro ao resetar lista:", error);
+    }
+  };
+
   const getColor = (attendances?: Attendance[]) => {
     const status = attendances?.find((a) => a.id === todayId)?.status;
     if (status === "presente") return "success.main";
@@ -132,7 +182,7 @@ const AttendanceList = () => {
           <Typography
             variant="h2"
             color={getColor(previous?.attendances)}
-            sx={{ opacity: 0.3 }}
+            sx={{ opacity: 0.3, textDecoration: previous?.status === StudentStatus.ELIMINADO ? 'line-through' : 'none' }}
           >
             {previous?.name || ""}
           </Typography>
@@ -142,15 +192,21 @@ const AttendanceList = () => {
               variant="h1"
               color={getColor(current?.attendances)}
               align="center"
+              sx={{ textDecoration: current?.status === StudentStatus.ELIMINADO ? 'line-through' : 'none' }}
             >
               {current?.name || "Carregando..."}
             </Typography>
+            {current && (
+              <Typography variant="h5" align="center" color="text.secondary">
+                Faltas: {current.attendances?.filter(a => a.status === "ausente").length || 0}
+              </Typography>
+            )}
           </Box>
 
           <Typography
             variant="h2"
             color={getColor(next?.attendances)}
-            sx={{ opacity: 0.3 }}
+            sx={{ opacity: 0.3, textDecoration: next?.status === StudentStatus.ELIMINADO ? 'line-through' : 'none' }}
           >
             {next?.name || ""}
           </Typography>
@@ -169,6 +225,7 @@ const AttendanceList = () => {
             variant="contained"
             color="info"
             onClick={() => handleAttendance("justificado")}
+            disabled={current?.status === StudentStatus.ELIMINADO}
           >
             Justificado
           </Button>
@@ -177,6 +234,7 @@ const AttendanceList = () => {
             variant="contained"
             color="warning"
             onClick={() => handleAttendance("ausente")}
+            disabled={current?.status === StudentStatus.ELIMINADO}
           >
             Faltou
           </Button>
@@ -185,6 +243,7 @@ const AttendanceList = () => {
             variant="contained"
             color="success"
             onClick={() => handleAttendance("presente")}
+            disabled={current?.status === StudentStatus.ELIMINADO}
           >
             Presente
           </Button>
@@ -197,16 +256,51 @@ const AttendanceList = () => {
             <KeyboardDoubleArrowRight />
           </IconButton>
 
-          <Button
+          
+          {current?.status === StudentStatus.ELIMINADO ? (
+            <Button
+              variant="outlined"
+              color="success"
+              onClick={handleReactivate}
+            >
+              Reativar
+            </Button>
+          ): <Button
             variant="outlined"
             color="error"
             onClick={handleDelete}
-            disabled={!current}
           >
             Excluir
+          </Button>}
+          <Button
+            variant="outlined"
+            color="secondary"
+            onClick={() => setResetOpen(true)}
+          >
+            Resetar Lista
           </Button>
         </Stack>
       </Stack>
+
+      <Dialog
+        open={resetOpen}
+        onClose={() => setResetOpen(false)}
+      >
+        <DialogTitle>Resetar Lista de Presença</DialogTitle>
+        <DialogContent>
+          <DialogContentText>
+            Tem certeza que deseja resetar todas as presenças? Esta ação não pode ser desfeita.
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={() => setResetOpen(false)} color="primary">
+            Cancelar
+          </Button>
+          <Button onClick={handleResetList} color="error" variant="contained">
+            Resetar
+          </Button>
+        </DialogActions>
+      </Dialog>
     </Container>
   );
 };
