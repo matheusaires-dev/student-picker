@@ -175,13 +175,17 @@ const AttendanceList = () => {
     return "primary";
   };
 
+  // Cor para nomes e botões de eliminados
+  const eliminatedColor = 'text.disabled';
+  const activeColor = 'success.main';
+
   return (
     <Container sx={{ height: "100vh" }}>
       <Stack height="100%" py={2}>
         <Box flexGrow={1}>
           <Typography
             variant="h2"
-            color={getColor(previous?.attendances)}
+            color={previous?.status === StudentStatus.ELIMINADO ? eliminatedColor : getColor(previous?.attendances)}
             sx={{ opacity: 0.3, textDecoration: previous?.status === StudentStatus.ELIMINADO ? 'line-through' : 'none' }}
           >
             {previous?.name || ""}
@@ -190,7 +194,7 @@ const AttendanceList = () => {
           <Box py={16}>
             <Typography
               variant="h1"
-              color={getColor(current?.attendances)}
+              color={current?.status === StudentStatus.ELIMINADO ? eliminatedColor : getColor(current?.attendances)}
               align="center"
               sx={{ textDecoration: current?.status === StudentStatus.ELIMINADO ? 'line-through' : 'none' }}
             >
@@ -205,7 +209,7 @@ const AttendanceList = () => {
 
           <Typography
             variant="h2"
-            color={getColor(next?.attendances)}
+            color={next?.status === StudentStatus.ELIMINADO ? eliminatedColor : getColor(next?.attendances)}
             sx={{ opacity: 0.3, textDecoration: next?.status === StudentStatus.ELIMINADO ? 'line-through' : 'none' }}
           >
             {next?.name || ""}
@@ -260,18 +264,22 @@ const AttendanceList = () => {
           {current?.status === StudentStatus.ELIMINADO ? (
             <Button
               variant="outlined"
-              color="success"
+              sx={{ borderColor: 'rgba(0,0,0,0.23)' }}
               onClick={handleReactivate}
+              color='success'
             >
               Reativar
             </Button>
-          ): <Button
-            variant="outlined"
-            color="error"
-            onClick={handleDelete}
-          >
-            Excluir
-          </Button>}
+          ) : (
+            <Button
+              variant="outlined"
+              sx={{ borderColor: 'rgba(0,0,0,0.23)' }}
+              onClick={handleDelete}
+              color="error"
+            >
+              Excluir
+            </Button>
+          )}
           <Button
             variant="outlined"
             color="secondary"
