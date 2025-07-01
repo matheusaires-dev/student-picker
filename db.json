@@ -3,602 +3,602 @@
     {
       "id": "1",
       "name": "Ana Carolina Mocário da Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "2",
       "name": "Ana Clara da Silva Costa Gabriel",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "3",
       "name": "Ana Clara da Silva Patrício",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "4",
       "name": "Ana Clara dos Santos da Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "5",
       "name": "Ana clara laenas Andrade Pacheco",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "6",
       "name": "ana clara oliveira dos santos",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "7",
       "name": "Ana Júlia Da silva Gonçalves",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "8",
       "name": "Ana Laura Pimentel de Oliveira",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "9",
       "name": "Ana Luisa Ferreira dos Santos",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "10",
       "name": "Analice de Andrade Francisco da Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "11",
       "name": "Análya britney da Silva Santos",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "12",
       "name": "Ananda de Souza Virgolino",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "13",
       "name": "Anna Bheatriz Pires Da Silva Vieira",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "14",
       "name": "Beatris Nascimento Santana Dionisio",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "15",
       "name": "beatriz motta da cunha",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "16",
       "name": "Bianca Lima Pereira",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "17",
       "name": "Camille Louise de Santana Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "18",
       "name": "camille vitoria queiroz dos santos",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "19",
       "name": "Camilly do nascimento Venancio",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "20",
       "name": "Carina da silva arcanjo",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "21",
       "name": "Carla Victoria Soares Muchuli.",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "22",
       "name": "Carlos Eduardo da Silva Barbosa",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "23",
       "name": "Claralice alves dos santos",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "24",
       "name": "Cláudio de Oliveira Santos",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "25",
       "name": "Cristiane Da Silva Henrique",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "26",
       "name": "Danielle da Silva Costa",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "27",
       "name": "Danielle dos Santos Oliveira",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "28",
       "name": "Debora Dos Reis Da Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "29",
       "name": "Eduarda Barbosa de Souza",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "30",
       "name": "Eloisa Barbosa Monteiro",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "31",
       "name": "Emily de castro gomes",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "32",
       "name": "Emily Vitória Ribeiro de Oliveira",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "33",
       "name": "Evellen Cristinny da Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "34",
       "name": "Evellyn Cristina da Silva dos Santos",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "35",
       "name": "Fabiana Diniz Valverde Rocha",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "36",
       "name": "Fernanda Diniz Valverde Rocha",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "37",
       "name": "Fernanda Pereira da Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "38",
       "name": "Flávia Beatriz Ferreira Cunha",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "39",
       "name": "GABRIEL ANGELO DOS REIS MARTINS",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "40",
       "name": "Gabriel Elias da Cruz",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "41",
       "name": "Gabriella Oliveira da Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "42",
       "name": "Giovanna Ramos Porto",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "43",
       "name": "Hannah Beatriz Alves Barbosa",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "44",
       "name": "HYAN FRANCISCO TENÓRIO ESTEVES",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "45",
       "name": "Ian Carlos Guimarães da Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "46",
       "name": "Isabella Cristina Gomes Braz",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "47",
       "name": "Isabelly Vasconcellos Marques",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "48",
       "name": "Jamilly Vitória Marcos de Jesus",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "49",
       "name": "jhonatam belianis conceição",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "50",
       "name": "Jhony Gomes de Souza",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "51",
       "name": "Jhulianne Feitosa de Carvalho Lima",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "52",
       "name": "JOÃO DAVI SARGES BAPTISTA COSTA DA SILVA",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "53",
       "name": "Jonatas dos Santos Perez",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "54",
       "name": "Juan Martins de Almeida Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "55",
       "name": "Júlia Ayrosa leite da Silva",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "56",
       "name": "Julia de Souto Ferreira",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "57",
       "name": "Júlia dos Santos Felix de Almeida",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "58",
       "name": "Julia Soares da Silva Fagundes",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "59",
       "name": "Julia Venancio do nascimento",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "60",
       "name": "Juliana Lopes Nascimento",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "61",
       "name": "JULIO CESAR ALVES DE SOUZA DA SILVA",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "62",
       "name": "Julya Isabelly Moura laranja",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "63",
       "name": "Kauã de Almeida Andrade",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "64",
       "name": "Kauan Lopes Werneck Carneiro",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "65",
       "name": "Kauane Vitória Pereira Lima Lobato",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "66",
       "name": "Kézia Nascimento Silveira",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "67",
       "name": "Lara Kellen Simplício de Freitas",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "68",
       "name": "Larissa de Jesus da Silva",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "69",
       "name": "Larissa de Matos Bezerra da Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "70",
       "name": "Larissa Silva da Cunha",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "71",
       "name": "Laryssa Gomes Castorino De Oliveira",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "72",
       "name": "Laryssa Rodrigues Vieira",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "73",
       "name": "Laura Beatriz Da Silva Sousa",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "74",
       "name": "Lavínia de matos bezerra da Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "75",
       "name": "Livya Caetano Gonçalves",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "76",
       "name": "Luís Felipe Cardoso Marçal",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "77",
       "name": "Luiz Fernando Marins do Monte",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "78",
       "name": "Marcus Vinicius Miranda da Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "79",
       "name": "Maria Clara Crispim Spindola",
-      "attendances": "justificado"
+      "attendances": [{ "id": "20240321", "status": "justificado" }]
     },
     {
       "id": "80",
       "name": "Maria Clara Ramos Bezerra",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "81",
       "name": "Maria Eduarda de Amorim Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "82",
       "name": "Maria Eduarda Lourenço Faria",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "83",
       "name": "Maria Eduarda pena Santiago",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "84",
       "name": "Maria Eduarda Ramos da Silva",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "85",
       "name": "Maria Eduarda Sousa de Moraes",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "86",
       "name": "Maryane Nascimento Marques da Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "87",
       "name": "Micaelly vitoria de lima de souza",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "88",
       "name": "Millena Raquel Gonçalves Dias dos Santos",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "89",
       "name": "mirella fernandes baracho",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "90",
       "name": "Oliver dos santos velouso",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "91",
       "name": "Pamela Alves Procópio",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "92",
       "name": "Pedro Lucas Lopes Farranha",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "93",
       "name": "Pedro Luiz de Almeida Cardoso",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "94",
       "name": "Queren Oliveira da silva",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "95",
       "name": "Raíssa vianna da silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "96",
       "name": "Raphael Souza Pereira Machado",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "97",
       "name": "Rayane Santos de Abreu de Lima",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "98",
       "name": "Rebecca Mota Silva",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "99",
       "name": "renan araújo da silva alves",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "100",
       "name": "Rennan William de Oliveira",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "101",
       "name": "Rosiany Letícia Ramos Rodrigues teteo",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "102",
       "name": "Ruan Erik da Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "103",
       "name": "Sabrina Bianca de Araujo Passos Alves",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "104",
       "name": "Samara Luize Da Luz Braga",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "105",
       "name": "Samuel Souto da Silva",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "106",
       "name": "Sarah Fernanda de Campos Lima",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "107",
       "name": "Sofia Rosa Faustino de Lima",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "108",
       "name": "Tatiana Macedo Lima",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "109",
       "name": "Thaís Araújo de Oliveira",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "110",
       "name": "Thalia Gonçalves melo",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "111",
       "name": "Victoria Monteiro Magalhães Santos",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "112",
       "name": "Victória Rhayane Azevedo Mostaphia",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "113",
       "name": "VITOR EMANUEL DO ROSARIO BUCHAN",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "114",
       "name": "vitória dos santos muniz",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "115",
       "name": "Vitoria Oliveira da Silva",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     },
     {
       "id": "116",
       "name": "Wenzel bento da costa",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "117",
       "name": "Yasmin Piovezan",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "118",
       "name": "Ygor Alexandre Marozzi Pavone",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "119",
       "name": "Yure Gomes Soares",
-      "attendances": "presente"
+      "attendances": [{ "id": "20240321", "status": "presente" }]
     },
     {
       "id": "120",
       "name": "Yuri de Oliveira dos Santos",
-      "attendances": "faltou"
+      "attendances": [{ "id": "20240321", "status": "ausente" }]
     }
   ]
 }

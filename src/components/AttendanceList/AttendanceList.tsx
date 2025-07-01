@@ -3,12 +3,14 @@ import { Box, Container, Stack, Typography, Button, IconButton } from "@mui/mate
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-type attendance = 'presente' | 'faltou' | 'justificado' | null;
+type status = 'presente' | 'ausente' | 'justificado';
+
+type attendance = { id: string; status: status }
 
 interface IAttendance {
     id: number;
     name: string;
-    attendances: attendance
+    attendances: attendance[]
 }
 
 const AttendanceList = () => {
@@ -16,13 +18,19 @@ const AttendanceList = () => {
     const [number, setNumber] = useState(0);
     const [attendanceList, setAttendanceList] = useState<IAttendance[]>([]);
 
+    const date = new Date();
+
+    const [day, month, year] = date.toLocaleDateString().split('/');
+
+    const id = year + month + day;
+
     const previous = attendanceList[number - 1]
     const current = attendanceList[number]
     const next = attendanceList[number + 1]
 
-    const previousAttendance = previous?.attendances;
-    const currentAttendance = current?.attendances;
-    const nextAttendance = next?.attendances;
+    const previousAttendances = previous?.attendances;
+    const currentAttendances = current?.attendances;
+    const nextAttendances = next?.attendances;
 
     useEffect(() => {
         axios.get('http://localhost:3000/attendanceList')
@@ -38,10 +46,10 @@ const AttendanceList = () => {
         setNumber(0);
     }
     const handleEnd = () => {
-        const attendance = attendanceList.find(attendance=> !attendance.attendances)
-        if(attendance){
+        const attendance = attendanceList.find(attendance => !attendance.attendances)
+        if (attendance) {
             setNumber(attendance?.id - 1);
-        }else{
+        } else {
             setNumber(attendanceList.length - 1);
         }
     }
@@ -51,15 +59,23 @@ const AttendanceList = () => {
         }
     }
     const handleNext = () => {
-        if (number < attendanceList.length && currentAttendance) {
+        if (number < attendanceList.length && currentAttendances) {
             setNumber(n => n + 1);
         }
     }
 
-    const handleAttendance = (status: attendance) => {
+    const handleAttendance = (status: status) => {
         if (current) {
+            const index = currentAttendances.findIndex(attendance => attendance.id === id);
+
+            if (index < 0) {
+                currentAttendances[currentAttendances.length] = { id, status }
+            } else[
+                currentAttendances[index] = { id, status }
+            ]
+
             axios.patch(`http://localhost:3000/attendanceList/${current.id}`, {
-                attendances: status
+                attendances: currentAttendances
             })
                 .then(response => {
                     console.log('Dados atualizados com sucesso: ', response.data);
@@ -78,11 +94,11 @@ const AttendanceList = () => {
         }
     }
 
-    const setColor = (attendance: attendance) => {
-        console.log(attendance)
-        if (attendance === "presente") return "success.main"
-        if (attendance === "faltou") return "error"
-        if (attendance === "justificado") return "warning.main"
+    const setColor = (attendances: attendance[]) => {
+        const attendance = attendances?.find(attendance => attendance.id === id);
+        if (attendance?.status === "presente") return "success.main"
+        if (attendance?.status === "ausente") return "error"
+        if (attendance?.status === "justificado") return "warning.main"
         return "primary"
     }
 
@@ -91,15 +107,15 @@ const AttendanceList = () => {
         <Container sx={{ height: '100vh' }}>
             <Stack height={'100%'} paddingY={2}>
                 <Box flexGrow={1}>
-                    <Typography variant="h2" color={setColor(previousAttendance)} sx={{ opacity: '0.3' }}>
+                    <Typography variant="h2" color={setColor(previousAttendances)} sx={{ opacity: '0.3' }}>
                         {previous?.name}
                     </Typography>
                     <Box paddingY={16}>
-                        <Typography variant="h1" color={setColor(currentAttendance)} alignItems={"center"}>
+                        <Typography variant="h1" color={setColor(currentAttendances)} alignItems={"center"}>
                             {current?.name}
                         </Typography>
                     </Box>
-                    <Typography variant="h2" color={setColor(nextAttendance)} sx={{ opacity: '0.3' }}>
+                    <Typography variant="h2" color={setColor(nextAttendances)} sx={{ opacity: '0.3' }}>
                         {next?.name}
                     </Typography>
                 </Box>
@@ -113,7 +129,7 @@ const AttendanceList = () => {
                     <Button variant="contained" color="info" onClick={() => handleAttendance('justificado')}>
                         Justificado
                     </Button>
-                    <Button variant="contained" color="warning" onClick={() => handleAttendance('faltou')}>
+                    <Button variant="contained" color="warning" onClick={() => handleAttendance('ausente')}>
                         Faltou
                     </Button>
                     <Button variant="contained" color="success" onClick={() => handleAttendance('presente')}>

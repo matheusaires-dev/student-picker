@@ -16,9 +16,14 @@
     "@mui/icons-material": "^5.15.14",
     "@mui/material": "^5.15.14",
     "axios": "^1.6.8",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "json-server": "^1.0.0-alpha.23",
+    "pg": "^8.13.3",
+    "pg-hstore": "^2.3.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sequelize": "^6.37.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.64",

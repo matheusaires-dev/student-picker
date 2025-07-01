@@ -1,7 +1,6 @@
 
 import './App.css'
 import AttendanceList from './components/AttendanceList/AttendanceList'
-import AppProvider from './context/AppContext'
 // import AppProvider from './context/AppContext'
 // import AttendanceListProvider from './context/AttendanceList'
 
