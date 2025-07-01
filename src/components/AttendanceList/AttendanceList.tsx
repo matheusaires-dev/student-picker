@@ -177,6 +177,46 @@ const AttendanceList = () => {
 
   const eliminatedColor = 'text.disabled';
 
+  // Atalhos de teclado para navegação e ações
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (!current) return;
+      if (document.activeElement && (document.activeElement as HTMLElement).tagName === 'INPUT') return;
+      switch (e.key) {
+        case 'ArrowLeft':
+          e.preventDefault();
+          handleBack();
+          break;
+        case 'ArrowRight':
+          e.preventDefault();
+          handleNext();
+          break;
+        case 'Enter':
+          e.preventDefault();
+          if (current.status !== StudentStatus.ELIMINADO) handleAttendance('presente');
+          break;
+        case 'Backspace':
+          e.preventDefault();
+          if (current.status !== StudentStatus.ELIMINADO) handleDelete();
+          break;
+        case 'j':
+        case 'J':
+          e.preventDefault();
+          if (current.status !== StudentStatus.ELIMINADO) handleAttendance('justificado');
+          break;
+        case 'f':
+        case 'F':
+          e.preventDefault();
+          if (current.status !== StudentStatus.ELIMINADO) handleAttendance('ausente');
+          break;
+        default:
+          break;
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [current, currentIndex, attendanceList, handleAttendance, handleDelete, handleBack, handleNext]);
+
   return (
     <Container sx={{ height: "100vh" }}>
       <Stack height="100%" py={2}>
