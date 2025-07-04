@@ -8,6 +8,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -18,6 +22,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "ausente"
+        },
+        {
+          "id": "20250703",
           "status": "ausente"
         }
       ]
@@ -30,6 +38,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -41,6 +53,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -51,6 +67,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "ausente"
+        },
+        {
+          "id": "20250703",
           "status": "ausente"
         }
       ]
@@ -63,6 +83,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -73,6 +97,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "ausente"
+        },
+        {
+          "id": "20250703",
           "status": "ausente"
         }
       ]
@@ -85,6 +113,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -95,6 +127,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "presente"
+        },
+        {
+          "id": "20250703",
           "status": "presente"
         }
       ]
@@ -107,6 +143,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -117,6 +157,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "presente"
+        },
+        {
+          "id": "20250703",
           "status": "presente"
         }
       ]
@@ -129,6 +173,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -140,6 +188,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -150,6 +202,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "presente"
+        },
+        {
+          "id": "20250703",
           "status": "presente"
         }
       ]
@@ -162,6 +218,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "ausente"
         }
       ]
     },
@@ -173,6 +233,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -183,6 +247,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "ausente"
+        },
+        {
+          "id": "20250703",
           "status": "ausente"
         }
       ]
@@ -195,6 +263,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -205,6 +277,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "presente"
+        },
+        {
+          "id": "20250703",
           "status": "presente"
         }
       ]
@@ -217,6 +293,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -227,6 +307,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "presente"
+        },
+        {
+          "id": "20250703",
           "status": "presente"
         }
       ]
@@ -239,6 +323,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -249,6 +337,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "ausente"
+        },
+        {
+          "id": "20250703",
           "status": "ausente"
         }
       ]
@@ -261,6 +353,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -271,6 +367,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "ausente"
+        },
+        {
+          "id": "20250703",
           "status": "ausente"
         }
       ]
@@ -283,6 +383,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "ausente"
         }
       ]
     },
@@ -293,6 +397,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "presente"
+        },
+        {
+          "id": "20250703",
           "status": "presente"
         }
       ]
@@ -305,6 +413,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -316,6 +428,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "ausente"
         }
       ]
     },
@@ -333,6 +449,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -343,6 +463,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "presente"
+        },
+        {
+          "id": "20250703",
           "status": "presente"
         }
       ]
@@ -355,6 +479,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -365,6 +493,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "presente"
+        },
+        {
+          "id": "20250703",
           "status": "presente"
         }
       ]
@@ -377,6 +509,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "ausente"
         }
       ]
     },
@@ -388,6 +524,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "ausente"
         }
       ]
     },
@@ -405,6 +545,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -415,6 +559,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "ausente"
+        },
+        {
+          "id": "20250703",
           "status": "ausente"
         }
       ]
@@ -427,6 +575,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -438,6 +590,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "ausente"
         }
       ]
     },
@@ -449,6 +605,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "ausente"
         }
       ]
     },
@@ -460,6 +620,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -470,6 +634,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "presente"
+        },
+        {
+          "id": "20250703",
           "status": "presente"
         }
       ]
@@ -482,6 +650,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -492,6 +664,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "presente"
+        },
+        {
+          "id": "20250703",
           "status": "presente"
         }
       ]
@@ -504,6 +680,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "ausente"
         }
       ]
     },
@@ -514,6 +694,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "ausente"
+        },
+        {
+          "id": "20250703",
           "status": "ausente"
         }
       ]
@@ -526,6 +710,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -536,6 +724,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "ausente"
+        },
+        {
+          "id": "20250703",
           "status": "ausente"
         }
       ]
@@ -548,6 +740,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "ausente"
         }
       ]
     },
@@ -558,6 +754,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "ausente"
+        },
+        {
+          "id": "20250703",
           "status": "ausente"
         }
       ]
@@ -570,6 +770,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "ausente"
         }
       ]
     },
@@ -580,6 +784,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "presente"
+        },
+        {
+          "id": "20250703",
           "status": "presente"
         }
       ]
@@ -592,6 +800,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "ausente"
         }
       ]
     },
@@ -603,6 +815,10 @@
         {
           "id": "20250701",
           "status": "justificado"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -613,6 +829,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "ausente"
+        },
+        {
+          "id": "20250703",
           "status": "ausente"
         }
       ]
@@ -625,6 +845,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -635,6 +859,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "presente"
+        },
+        {
+          "id": "20250703",
           "status": "presente"
         }
       ]
@@ -647,6 +875,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "ausente"
         }
       ]
     },
@@ -657,6 +889,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "ausente"
+        },
+        {
+          "id": "20250703",
           "status": "ausente"
         }
       ]
@@ -669,6 +905,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "ausente"
         }
       ]
     },
@@ -679,6 +919,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "presente"
+        },
+        {
+          "id": "20250703",
           "status": "presente"
         }
       ]
@@ -691,6 +935,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -702,6 +950,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "ausente"
         }
       ]
     },
@@ -712,6 +964,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "ausente"
+        },
+        {
+          "id": "20250703",
           "status": "ausente"
         }
       ]
@@ -724,6 +980,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -734,6 +994,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "presente"
+        },
+        {
+          "id": "20250703",
           "status": "presente"
         }
       ]
@@ -746,6 +1010,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -757,6 +1025,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "ausente"
         }
       ]
     },
@@ -768,6 +1040,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -778,6 +1054,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "presente"
+        },
+        {
+          "id": "20250703",
           "status": "presente"
         }
       ]
@@ -790,6 +1070,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -800,6 +1084,10 @@
       "attendances": [
         {
           "id": "20250701",
+          "status": "ausente"
+        },
+        {
+          "id": "20250703",
           "status": "ausente"
         }
       ]
@@ -812,6 +1100,10 @@
         {
           "id": "20250701",
           "status": "presente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     },
@@ -823,6 +1115,10 @@
         {
           "id": "20250701",
           "status": "ausente"
+        },
+        {
+          "id": "20250703",
+          "status": "presente"
         }
       ]
     }
